@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "666295297064",
+    "firebase_url": "https://bloodline-mobile-app.firebaseio.com",
+    "project_id": "bloodline-mobile-app",
+    "storage_bucket": "bloodline-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666295297064:android:b9f8dd620f0c43e94d011d",
+        "android_client_info": {
+          "package_name": "com.ayomi.bloodlinemobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666295297064-slu3ibc2a0kog2tjjbgiph1qr8q0sc9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNho1RiG62G4QN7RGWolTOgz9k3pbkcig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666295297064-slu3ibc2a0kog2tjjbgiph1qr8q0sc9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

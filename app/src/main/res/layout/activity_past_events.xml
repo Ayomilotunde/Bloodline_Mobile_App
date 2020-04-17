@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    tools:context=".PastEvents">
+
+    <EditText
+        android:id="@+id/edt_imagename"
+        android:hint="image name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<Button
+    android:onClick="ChooseImageButton"
+    android:id="@+id/btn_choose_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Choose image"/>
+
+    <ImageView
+        android:id="@+id/display_image_choosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    <Button
+        android:onClick="UploadButton"
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload image"/>
+
+    <Button
+        android:onClick="ViewImageButton"
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View image"/>
+
+
+</LinearLayout>
